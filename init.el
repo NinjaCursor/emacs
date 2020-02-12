@@ -1,9 +1,15 @@
 ;;prevent emacs from saving to current directory
-;; TODO: this does not work lol
-(setq backup-directory-alist `(("." . "~/.saves")))
+(setq auto-save-interval 20)
+;;(setq mySaveVariable
+
+;;(setq auto-save-file-name-transforms '((".*" (concat (file-name-directory buffer-file-name) ".emacs-saves/\\2") t)))
+(setq auto-save-file-name-transforms
+      `((".*" "~/.emacs-saves/\\2" t)))
 
 
-;; no startup msg  
+;;(concat (file-name-directory buffer-file-name) "asdf")
+				       
+;; no startup msg
 
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
