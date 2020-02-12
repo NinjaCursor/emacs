@@ -1,4 +1,5 @@
 ;;prevent emacs from saving to current directory
+;; TODO: this does not work lol
 (setq backup-directory-alist `(("." . "~/.saves")))
 
 
