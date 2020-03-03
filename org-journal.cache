@@ -1,0 +1,2 @@
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("c:/Users/jacob/AppData/Roaming/Documents/journal/20200302" (3 2 2020) "c:/Users/jacob/AppData/Roaming/Documents/journal/20200303" (3 3 2020)))
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("c:/Users/jacob/AppData/Roaming/Documents/journal/20200302" (24158 53922 0 0) "c:/Users/jacob/AppData/Roaming/Documents/journal/20200303" (24158 54633 0 0)))
